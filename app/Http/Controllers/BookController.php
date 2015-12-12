@@ -145,7 +145,6 @@ class BookController extends Controller {
         # Done
         \Session::flash('flash_message','Your book was added!');
         return redirect('/books');
-
     }
 
     /**
